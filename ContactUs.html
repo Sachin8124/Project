@@ -1,41 +1,93 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-        <title>
-            Contact
-        </title>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <section class="contact">
-            <div class="container">
-                <img class="img-logo" style="width: 110px;" src="amazon-logo.png">
-                <h2>Contact Us</h2>
-                <div class="contact-wrapper">
-                    <div class="contact-form">
-                        <h3>Send us a message</h3>
-                        <form>
-                            <div class="form-group">
-                                <input type="text" name="name" placeholder="Your Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Your Email">
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
-                                    </div>
-                                    <button type="submit">Send Message</button>
-                        </form>
-                    </div>
-                    <div class="contact-info">
-                        <h3>Contact Information</h3>
-                        <p><i class="fas fa-phone"></i>&nbsp;1-888-280-4331</p>
-                        <p><i class="fas fa-envelope"></i>&nbsp;Amazon@gmail.com</p>
-                        <p><i class="fas fa-map-marker-alt"></i>&nbsp;196 street,city,Country</p>
+
+<head>
+    <title>
+        Contact
+    </title>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="block">
+        <img class="img-logo" style="width: 110px;" src="amazon-logo.png">
+        <div class="address">
+            <i class="fa-solid fa-location-dot"></i>&nbsp;
+            <div class="inneraddress">
+                <div class="light-font"> Deliver to</div>
+                <div class="heavy-font"> India</div>
+            </div>
+        </div>
+
+        <div class="nav-search">
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input type="text" name="id" placeholder=" Search Amazon.com " class="search-input">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="account-holders">
+            <div class="light-font" id="signin"><a href="Signin.html">Hello, sign in</div>
+            <div class="heavy-font">Account & Lists</a></div>
+        </div>
+        <div class="return">
+            <div class="light-font" id="return&orders"><a href="Return&orders.html">Returns</div>
+            <div class="light-font"> & Orders</a></div>
+        </div>
+        <div class="nav-cart border" id="cart"><a href="Cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>&nbsp; Cart
+            </a></div>
+
+    </div>
+    <div class="panel">
+        <div class="panel-ops">
+            <div class="Home" id="Home">
+                <div class="CustomerService" id="CustomerService">
+                    <div class="ContactUs" id="ContactUs">
+                        <a href="index.html">Home</a>
+                        <a href="Products.html">Products</a>
+                        <a href="CustomerService.html">Customer Service</a>
+                        <a href="index.html">About Us</a>
+                        <a href="ContactUs.html">Contact Us</a>
                     </div>
                 </div>
             </div>
-        </section>
-    </body>
+        </div>
+    </div>
+    <section class="contact">
+        <div class="container">
+            <img class="img-logo" style="width: 110px;" src="amazon-logo.png">
+            <h2>Contact Us</h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-phone"></i>&nbsp;1-888-280-4331</p>
+                    <p><i class="fas fa-envelope"></i>&nbsp;Amazon@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>&nbsp;196 street,city,Country</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>

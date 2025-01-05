@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -49,4 +49,49 @@
         flex-direction: column;
         align-items: center;
     }
+} */
+
+
+
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 12rem;
+}
+
+.container h1 {
+    padding-bottom: 3rem;
+}
+
+.services-card-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.services-card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    align-items: center;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.services-card i {
+    font-size: 2rem;
+    color: cyan;
+}
+
+.services-card:hover {
+    scale: 1.1;
+    box-shadow: 0 0 50px cyan;
 }
